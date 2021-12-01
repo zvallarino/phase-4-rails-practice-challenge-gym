@@ -5,6 +5,7 @@ cassie = Client.create(name: "Casie Effertz", age: 18)
 dorris = Client.create(name: "Dorris Bogan", age: 52)
 bernie = Client.create(name: "Bernie Schiller", age: 44)
 manie = Client.create(name: "Manie Dare", age: 29)
+zach = Client.create(name: "zach", age: 30)
 
 Membership.create(gym_id: la.id, client_id: cassie.id, charge: 40)
 Membership.create(gym_id: la.id, client_id: dorris.id, charge: 40)
